@@ -10,4 +10,6 @@ This technique can be used for finding the locations of known objects in scanned
 If you have any questions about the program, please pull up an issue on here! I will be glad to help out.  
 
 *Note, portions of this code have been extracted from tutorials like http://pointclouds.org/documentation/tutorials/correspondence_grouping.php#correspondence-grouping
-I changed the code so that I could see the centroid point location of recognized target models.  
+This tutorial code uses a clustering algorithm to find the location of a target object inside a scene point cloud. 
+I used this code as a starting point to then take the dimensions and calculate the centroid of the object that has been found, 
+and I had to rearrange the code used in the tutorial to duplicate the process to find the centroid of 2 objects and draw a line to each one.  
