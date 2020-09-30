@@ -1,5 +1,5 @@
 # PCL-Target-Centroid-Clusterer
-This repository contains files of a C++ script that can take 1 (or 2) input model .pcd point cloud files, search for it in the scene point cloud, and return the centroid point of that model's location. 
+This repository contains C++ scripts that can take 1 (or 2) input model .pcd point cloud files, search for it in the scene point cloud, and return the centroid point of that model's location. 
 
 The C++ script is pcd_read.cpp. I included a box1.pcd and box2.pcd target files, and a box_scene.pcd scene file.  
 By default, the script will search for these two target files inside the box_scene.pcd file and draw a blue and green line to the centroid of each box from the origin. 
